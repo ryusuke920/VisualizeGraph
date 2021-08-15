@@ -23,7 +23,7 @@ $ pip install graphviz
 |1-indexed|1|
 
 **graph_number**
-|graph_numnber|Graph type|
+|Graph type|graph_numnber|
 |:--:|:--:|
 |directed graph with weight|1|
 |directed graph without weight|2|
