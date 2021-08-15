@@ -4,8 +4,8 @@ from graphviz import Digraph
 class VisualizeGraph:
     def __init__(self, Node: int, Edge: int, Indexed: int, graph_number: int) -> None:
         '頂点数, 辺の数, index指定'
-        self.directed_graph = Digraph(format='pdf')
-        self.undirected_graph = Graph(format='pdf')
+        self.directed_graph = Digraph(format='png')
+        self.undirected_graph = Graph(format='png')
         self.directed_graph.attr('node', shape='circle', color='blue')
         self.undirected_graph.attr('node', shape='circle', color='blue')
         self.directed_graph.attr('edge', shape='circle', color='blue')
@@ -61,7 +61,7 @@ graph_numberについて
 '''
 # 63-66行目のみ変更する
 indexed = 0
-graph_number = 4
+graph_number = 3
 Node = int(input()) # 頂点の数
 Edge = Node - 1 # 辺の本数
 
